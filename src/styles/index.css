@@ -1,4 +1,29 @@
-
+#trafficTop {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+    margin-left: 82px;
+}
+#container {
+    background-color: black;
+    width: 70px;
+    height: 178px;
+    margin-left: 50px;
+    padding: 7px;
+    border-radius: 10px;
+}
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 4px;
+    cursor: pointer;
+    &.red {background-color: #990000;}
+    &.yellow {background-color: #CC6600;}
+    &.green {background-color: #009933;}
+    &.selected {box-shadow: #F8FFCC 0px 0px 50px 20px;}
+}
 /* 
 
     You can write your own styles here...
